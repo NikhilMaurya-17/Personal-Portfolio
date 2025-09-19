@@ -141,12 +141,13 @@ export const myProjects = [
     id: 4,
     title: "To-Do Application",
     description:
-      "A simple yet powerful task management app built that helps users organize daily tasks efficiently with a clean and responsive interface.",
+      "A modern To-Do application built with Next.js, featuring fast performance, server-side rendering, and a responsive UI to efficiently manage daily tasks.",
     subDescription: [
-     "Developed using JavaScript for task creation, deletion, and completion.",
-      "Designed a clean and responsive interface with HTML and CSS.",
-      "Implemented Local Storage to save tasks across browser sessions.",
-      "Optimized for usability on both desktop and mobile devices.",
+     "Developed with Next.js to leverage server-side rendering and optimized performance.",
+    "Implemented core CRUD functionality (add, edit, delete, mark complete) for task management.",
+    "Designed a responsive and clean UI using Tailwind CSS for seamless cross-device experience.",
+    "Integrated persistent storage (local storage or database) to save tasks across sessions.",
+    "Added task filtering and sorting (All, Active, Completed) for better organization.",
     ],
     href: "https://github.com/NikhilMaurya-17/Todo-app",
     logo: "",
@@ -154,13 +155,13 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Html5",
-        path: "/assets/logos/html5.svg",
+        name: "Nextjs",
+        path: "/assets/logos/Nextjs.webp",
       },
       {
         id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
+        name: "tailwindcss",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
