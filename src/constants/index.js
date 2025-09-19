@@ -110,13 +110,11 @@ export const myProjects = [
     id: 4,
     title: "Tic Tac Toe Game",
     description:
-      "An interactive web-based Tic Tac Toe game built with React, featuring a responsive design and intelligent game logic for two players.",
+      "An interactive web-based Tic Tac Toe game built with Javascript logic, featuring a responsive design and intelligent game logic for two players.",
     subDescription: [
-     "Developed the game logic in React with state management for smooth gameplay.",
-    "Implemented win/draw detection and real-time board updates.",
-    "Designed a responsive and user-friendly interface with Tailwind CSS.",
-    "Added restart/reset functionality for continuous play.",
-    "Optimized for both desktop and mobile devices to ensure accessibility." ,
+     "Built an interactive Tic Tac Toe game using HTML, CSS, and JavaScript.",
+  "Implemented game logic for win/draw detection and two-player mode.",
+  "Designed a clean, responsive UI with reset functionality.",
     ],
     href: "https://github.com/NikhilMaurya-17/Tic-tac-toe-game",
     logo: "",
@@ -124,18 +122,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Javascript",
-        path: "/assets/logos/javascript.svg",
+        name: "Html5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id:3,
-        name:"React",
-        path:"/assets/logos/react.svg"
+        name:"Javascript",
+        path:"/assets/logos/javascript.svg"
       }
     ],
   },
@@ -143,13 +141,12 @@ export const myProjects = [
     id: 4,
     title: "To-Do Application",
     description:
-      "A simple yet powerful task management app built with React that helps users organize daily tasks efficiently with a clean and responsive interface.",
+      "A simple yet powerful task management app built that helps users organize daily tasks efficiently with a clean and responsive interface.",
     subDescription: [
-      "Built core CRUD functionality (add, edit, delete, mark complete) using React state management.",
-    "Implemented persistent storage with Local Storage to retain tasks across sessions.",
-    "Designed a minimal and responsive UI with Tailwind CSS for smooth user experience.",
-    "Added task filtering (All, Active, Completed) for better task organization.",
-    "Optimized for mobile and desktop for accessibility and ease of use.",
+     "Developed using JavaScript for task creation, deletion, and completion.",
+      "Designed a clean and responsive interface with HTML and CSS.",
+      "Implemented Local Storage to save tasks across browser sessions.",
+      "Optimized for usability on both desktop and mobile devices.",
     ],
     href: "https://github.com/NikhilMaurya-17/Todo-app",
     logo: "",
@@ -157,18 +154,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Html5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "Javascript",
-        path: "/assets/logos/javascript.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "Tailwindcss",
-        path: "/assets/logos/tailwind.svg",
+        name: "Javasctipt",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
