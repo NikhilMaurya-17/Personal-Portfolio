@@ -1,41 +1,8 @@
 import { path } from "motion/react-client";
 
 export const myProjects = [
-  {
+   {
     id: 1,
-    title: "AI-Powered React Chatbot",
-    description:
-     "An intelligent chatbot application developed in React with API integrations for Gemini AI, OpenAI, and DeepSeek AI, enabling real-time, context-aware conversations.",
-    subDescription: [
-      "Developed a modern chatbot interface using React with responsive design and smooth UI interactions.",
-    "Integrated multiple AI APIs (Gemini AI, OpenAI, and DeepSeek AI) for diverse and human-like conversational responses.",
-    "Implemented real-time messaging features including typing indicators and chat history.",
-    "Optimized performance with efficient state management, lazy loading, and production-ready builds.",
-    "Showcased strong skills in API integration, frontend development, and building AI-driven applications.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/chat-bot.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-       {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id:3,
-        name:"Api",
-        path: "/assets/logos/api.svg",
-      }
-    ],
-  },
-  {
-    id: 2,
     title: "Paste App",
     description:
       "A web-based note-sharing and code snippet management application inspired by Pastebin, enabling users to create, save, and share text or code easily.",
@@ -67,6 +34,40 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 2,
+    title: "AI-Powered React Chatbot",
+    description:
+     "An intelligent chatbot application developed in React with API integrations for Gemini AI, OpenAI, and DeepSeek AI, enabling real-time, context-aware conversations.",
+    subDescription: [
+      "Developed a modern chatbot interface using React with responsive design and smooth UI interactions.",
+    "Integrated multiple AI APIs (Gemini AI, OpenAI, and DeepSeek AI) for diverse and human-like conversational responses.",
+    "Implemented real-time messaging features including typing indicators and chat history.",
+    "Optimized performance with efficient state management, lazy loading, and production-ready builds.",
+    "Showcased strong skills in API integration, frontend development, and building AI-driven applications.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/chat-bot.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+       {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id:3,
+        name:"Api",
+        path: "/assets/logos/api.svg",
+      }
+    ],
+  },
+ 
   {
   id: 3,
   title: "Currency Converter",
