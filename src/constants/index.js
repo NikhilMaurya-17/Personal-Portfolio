@@ -213,7 +213,7 @@ export const mySocials = [
   {
     name: "Github",
     href: "https://github.com/NikhilMaurya-17",
-    icon: "/assets/logos/github.svg",
+    icon: "/assets/logos/github-2.svg",
   },
   {
     name: "Linkedin",

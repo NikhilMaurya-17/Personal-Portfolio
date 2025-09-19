@@ -30,20 +30,20 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_8ro0srn",
+        "service_izbfzhx",
         "template_bqq6rr5",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Nikhil",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "mauryanikhil254@gmail.com",
           message: formData.message,
         },
-        "kt7xIaj8ZR9-Sy6dZ"
+        "yVk1b5n0-6ERLoDGE"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
-      showAlertMessage("success", "You message has been sent!");
+      showAlertMessage("success", "Your message has been sent!");
     } catch (error) {
       setIsLoading(false);
       console.log(error);
